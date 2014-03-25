@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="header">
+	<a href="../../" data-icon="home" data-iconpos="notext">Home</a>
+    <h1>Juhan pallo</h1>
+	<a data-role="none">
+    <select name="language" id="language">
+      <option value="eng">English</option>
+      <option value="suo">Suomi</option>
+      <option value="sve">Svenska</option>
+    </select>
+	</a>    
+    <div data-role="navbar">
+      <ul>		 
+		<li><a href="#" class="ui-btn-active ui-state-persist">Advertisement</a></li>        
+        <li><a href="./team.htm">Team</a></li>
+        <li><a href="./calendar.htm">Calendar</a></li>        
+      </ul>
+    </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+	  
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Wednesday, January 2, 2014 <span class="ui-li-count">2</span></li>   
+      <li><a href="#pagetwo">   
+        <h2>Talkoot</h2>
+        <p><b>Koskela 16:00</b></p>
+        <p>Evaat talkoolaisille</p>
+        <p>Ei tarvitse ilmoittautua. Kaikki mukaan.</p>        
+        <p class="ui-li-aside">0 osallistujaa</p></a>
+      </li>
+      <li><a href="#pagetwo">
+        <h2>Harkat</h2>
+        <p><b>Pateniemi 18:30</b></p>        
+        <p>Talkoiden jalkeen</p>        
+        <p class="ui-li-aside">5 ilmoittautunut</p></a>
+      </li>
+      <li data-role="list-divider">Tuesday, January 1, 2014 <span class="ui-li-count">1</span></li>   
+      <li><a href="#pagetwo">
+        <h2>Harkat</h2>
+        <p><b>Pateniemi 18:00</b></p>        
+        <p class="ui-li-aside">11 ilmoittautunut</p></a>
+      </li>
+    </ul>   
+    
+  </div>
+
+ <div data-role="footer">
+    <h2>Copyright © sami.pyy.on.cloud@gmail.com</h2>
+  </div>
+</div> 
+
+</body>
+</html>
+

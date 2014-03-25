@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" data-dialog="true" id="page1">
+  <div data-role="header" data-theme="b">
+    <h1>Tuesday, January 1, 2014</h1>    
+  </div>
+	
+  <div data-role="main" class="ui-content">	  
+    <ul data-role="listview" data-inset="true">
+      <li data-role="list-divider">Harkat<span class="ui-li-count">2</span></li>   
+      <li>
+        <h2>Janne posted: kjdsflkjsfldsj.</h2        
+      </li>
+      <li>
+        <h2>Erkki posted: kjdsflkjsfldsj.</h2        
+      </li>
+      <li>
+        <h2>Liisa posted: kjdsflkjsfldsj.</h2        
+      </li>
+      <li>
+        <h2>Janne posted: kjdsflkjsfldsj.</h2        
+      </li>
+    </ul>    
+  </div>
+
+ <div data-role="footer">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" class="ui-btn ui-btn-inline">Coming</a></li>
+        <li><a href="#" class="ui-btn ui-btn-inline">Not coming</a></li>        
+        <li><a href="#page2" class="ui-btn ui-btn-inline">Post message</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" data-dialog="true" id="page2">
+  <div data-role="header" data-theme="b">
+    <h1>Tuesday, January 1, 2014: Post message</h1>
+  </div>
+	
+  <div data-role="main" class="ui-content">    
+      <div class="ui-field-contain">
+		<form action="login.php?action=submit&event=2" method="post" id="loginForm">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Your email..">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">        
+        </form>
+      </div>
+  </div>
+
+ <div data-role="footer">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" class="ui-btn ui-btn-inline">Post message</a></li>        
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
